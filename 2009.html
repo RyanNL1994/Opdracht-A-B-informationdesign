@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stacked barchart</title>
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+
+    <div class="rect"></div>
+
+    <h1>Korte jaaroverzicht winst 2009 (NS, GVB, RET en CONNEXXION)</h1>
+
+    <p>In deze grafiek kunt u de de winst van de vervoersbedrijven NS, GVB, RET en CONNEXXION vergelijken in het jaar 2009. <br> Dit gebeurt aan de hand van een stacked bar chart hieronder, daar kunt u per vervoersbedrijf de belastingen, bruto winst en netto winst inzien. Zo kunt u zien welk vervoersbedrijf in het jaar 2009 bijv. de meeste netto winst heeft gemaakt enz.
+    </p>
+
+    <!-- hier geef ik de breedte en de hoogte aan van de svg (wat de grafiek wordt). Deze svg wordt in de javascript aangeroepen en hierin wordt vervolgens de data van de CSV bestand geladen-->
+
+    <div id="main">
+        <svg width="960" height="750"></svg>
+    </div>
+
+    <a href="2008.html"><button>2008</button></a>
+    <button class="aangeklikt">2009</button>
+    <a href="2010.html"><button>2010</button></a>
+
+    <div class="rect"></div>
+
+    <h2>Bronnen</h2>
+    <a href="http://www.nsstations.nl/binaries/content/assets/documenten/jaarverslag-2009.pdf">NS bron 2008 en 2009</a>
+    <a href="http://2015.nsjaarverslag.nl/FbContent.ashx/pub_1000/downloads/NS_Jaarverslag2011.pdf">NS bron 2010</a>
+    <a href="https://assets.gvb.nl/2013/#p=8">GVB bron 2009-2010</a>
+    <a href="http://fliphtml5.com/ikoj/bnxd/basic">GVB bron 2008</a>
+    <a href="https://www.transdev.nl/data/upload/cnxx_jv_2009_nl_10v.pdf">Connexxion bron 2008 en 2009</a>
+    <a href="https://www.transdev.nl/data/upload/CNXX_JV_2010_NL_dec.pdf">Connexxion bron 2010</a>
+    <a href="https://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjd5KKipa3XAhUH5aQKHaavDwYQFggnMAA&url=http%3A%2F%2Fcorporate.ret.nl%2Fen%2Ffinances%2Fannual-reports%2Fannual-report-2010-dutch.html&usg=AOvVaw2_V9cTSANA_qIu2mmRMjn1">RET bron 2009 en 2010</a>
+    <a href="https://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj0javcpq3XAhUL16QKHSdSAmsQFggnMAA&url=http%3A%2F%2Fcorporate.ret.nl%2Fen%2Ffinances%2Fannual-reports%2Fannual-report-2009-dutch.html&usg=AOvVaw2XQ-JpBcCfbymYs6LCdEqC">RET bron 2008</a>
+
+    <!-- Hier wordt er gelinkt naar de d3 libary-->
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Hier wordt er gelinkt naar de javascript file waar de data uiteindelijk wordt aangeroepen met behulp van de CSV bestand, vervolgens wordt hier een grafiek van gemaakt en wordt ook de css aangeroepen om de grafiek te stijlen.-->
+
+    <script src="script/script2009.js"></script>
+
+</body>
