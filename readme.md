@@ -244,6 +244,10 @@ Er worden 3 inzichten gebruikt:
 * `Belastingen` - laat de belasting zien van desbetreffende vervoersbedrijf
 * `Netto winst` - laat de netto winst zien van desbetreffende vervoersbedrijf
 
+## Githubpages link voor voorbeeld website van de visualisatie
+
+
+![Alt text](preview.png)
 
 ## Licentie
 
