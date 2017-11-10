@@ -245,7 +245,7 @@ Er worden 3 inzichten gebruikt:
 * `Netto winst` - laat de netto winst zien van desbetreffende vervoersbedrijf
 
 ## Githubpages link voor voorbeeld website van de visualisatie
-https://ryannl1994.github.io/Opdracht-A-informationdesign/
+https://ryannl1994.github.io/Opdracht-A-B-informationdesign/
 
 ![Alt text](preview.png)
 
