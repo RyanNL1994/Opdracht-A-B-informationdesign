@@ -251,4 +251,4 @@ https://ryannl1994.github.io/Opdracht-A-informationdesign/
 
 ## Licentie
 
-GPL-3.0 © Ryan Narain
+GPL-3.0 © Ryan Narain, 500745077, ID2
